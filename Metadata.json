@@ -1,0 +1,20 @@
+{
+    "Author": "Rob Sewell",
+    "ContentSize": 5140,
+    "ContentUrl": "https://raw.githubusercontent.com/azureautomation/newstorageaccount-child-runbook/master/workflow%20New-StorageAccount.ps1",
+    "DownloadCount": 707,
+    "Id": "New-StorageAccount-Child-1af478f9",
+    "IsFederated": false,
+    "IsWorkflow": true,
+    "Popularity": 576,
+    "RaterCount": 0,
+    "Rating": 0.0,
+    "ReleaseDate": "2015-1-5T00:00:00",
+    "RunbookKind": 6,
+    "RunbookKindString": "PowerShell Workflow",
+    "Summary": "This runbook creates a new storage account and outputs the name of the storage account\u00a0 \u00a0 It checks the name of the storage account and restricts it to 24 characters.\u00a0 \u00a0 The Name parameter is to be seen as the project name in this instance.\u00a0 \u00a0 Outputs the storage account name\u00a0Ca",
+    "Title": "New-StorageAccount Child Runbook",
+    "UpdatedDate": "2015-1-5T00:00:00",
+    "Url": "https://github.com/azureautomation/newstorageaccount-child-runbook",
+    "UserTags": "Utility, Azure Automation, azure storage account"
+}
