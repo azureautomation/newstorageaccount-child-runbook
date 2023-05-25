@@ -8,7 +8,7 @@
     The Name parameter is to be seen as the project name in this instance.
     Outputs the storage account name
 
-	Can be used with New-CloudService and New-AvailabilityGroupVM to automate and standardise environment creation
+    Can be used with New-CloudService and New-AvailabilityGroupVM to automate and standardise environment creation
 	
     Assign appropriate role for system managed identity under this Automation account before start this runbook.
 
