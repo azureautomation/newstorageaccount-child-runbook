@@ -104,7 +104,7 @@ workflow New-StorageAccount
     $AzureContext = Set-AzContext -SubscriptionId $SubscriptionId
     
     # Create/Verify Resource Group Name
-    $AzureResourceGroup = Get-AzResourceGroup -Name $ResourceGroupName
+    $AzureResourceGroup = Get-AzResourceGroup -Name $ResourceGroupName -ErrorAction SilentlyContinue
 
     # Create Resource Group
     if(!$AzureResourceGroup) 
