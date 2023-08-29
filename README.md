@@ -7,7 +7,9 @@
  instance.    Outputs the storage account name
  Can be used with New-CloudService and New-AvailabilityGroupVM to automate and standardise environment creation
 
+Assign appropriate role for system managed identity under this Automation account before start this runbook.
 
+More details: https://learn.microsoft.com/azure/automation/enable-managed-identity-for-automation#assign-role-to-a-system-assigned-managed-identity
  
 
 
